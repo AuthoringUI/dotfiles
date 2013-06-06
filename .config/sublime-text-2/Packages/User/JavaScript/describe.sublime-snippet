@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+describe('${1:what}', function() {
+    it('should ${2:do}', function() {
+        expect(${3:true}).toBe(${4:true});
+    });
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>desc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
